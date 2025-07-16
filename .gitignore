@@ -4,6 +4,7 @@ build/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+out/
 
 ### IntelliJ IDEA ###
 .idea/
@@ -11,6 +12,7 @@ bin/
 *.iws
 
 ### Eclipse ###
+.metadata/
 .apt_generated
 .classpath
 .factorypath
@@ -19,19 +21,51 @@ bin/
 .springBeans
 .sts4-cache
 
+### VSCode ###
+.vscode/
+.history/
+
 ### Logs ###
 logs/
 *.log
 
-### macOS ###
+### OS generated files ###
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-### Windows ###
+# Windows
 Thumbs.db
 ehthumbs.db
-desktop.ini
+Desktop.ini
+
+# Linux
+*~
 
 ### Temporary files ###
 *.tmp
 *.swp
 *.bak
+*.orig
+
+### JetBrains Rider ###
+.idea/
+*.sln
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dotCover
+
+### Others ###
+# Maven
+target/
+
+# Gradle wrapper cache
+.gradle/wrapper/dists/
+
+# Package distributions
+*.jar
+*.war
+*.ear
