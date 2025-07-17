@@ -78,11 +78,9 @@ java -jar <ClientFileName>.jar <Mode> <BaseServerUrl>:<Port> <GameID>
 
 ---
 
-```markdown
 ## 📸 User Interface Preview
 
 ![CLI Screenshot](images/ui-screenshot.jpg)
-```
 
 ---
 
