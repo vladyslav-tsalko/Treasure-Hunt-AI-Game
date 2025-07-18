@@ -24,29 +24,29 @@ The server enforces rules, coordinates turns, and validates actions. The game is
 ---
 
 ## 📦 Features Implemented
-- ✅ **Client-Server Communication**
+- **Client-Server Communication**
   - REST API integration using Spring’s `WebClient`.
   - Dynamically handles server URLs and game IDs via start parameters.
-- ✅ **Procedural Map Generation**
+- **Procedural Map Generation**
   - Randomized map half generation adhering to terrain and placement rules.
   - Flood-fill validation to ensure field connectivity.
   - Open-Closed Principle (OCP) applied for maintainability.
-- ✅ **AI Pathfinding**
+- **AI Pathfinding**
   - Implemented **Dijkstra’s algorithm** for shortest path calculation.
   - AI intelligently explores unknown areas and prioritizes objectives.
-- ✅ **CLI User Interface**
+- **CLI User Interface**
   - Text-based visualization using UTF-8 emoticons for terrains, players, treasure, and castles.
   - Displays game progress and final outcome (win/loss).
-- ✅ **Error Handling**
+- **Error Handling**
   - Custom checked and unchecked exceptions for critical logic.
   - Validates game state and network responses.
-- ✅ **Logging**
+- **Logging**
   - Integrated SLF4J with Logback for structured, multi-level logging.
   - Logs key events (game start, turn actions, errors).
-- ✅ **Unit Testing & TDD**
+- **Unit Testing & TDD**
   - Used JUnit 5 and Mockito for mocking server interactions.
   - Developed key features using Test-Driven Development (TDD).
-- ✅ **Refactored Architecture**
+- **Refactored Architecture**
   - Model-View-Controller (MVC) pattern.
   - Observer pattern for UI updates.
   - Dependency Injection for loose coupling.
