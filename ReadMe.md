@@ -8,7 +8,7 @@ The client communicates with a central game server via REST API and makes decisi
 
 ## Preview
 
-<img src="images/ui-screenshot.jpg" width="600"/>
+<img src="images/ui-screenshot.jpg" width="800"/>
 
 ## Game Model
 
