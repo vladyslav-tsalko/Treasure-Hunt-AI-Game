@@ -8,7 +8,7 @@ The client communicates with a central game server via REST API and makes decisi
 
 ## Preview
 
-<img src="images/ui-screenshot.jpg" width="800"/>
+![GUI Screenshot](images/ui-screenshot.jpg)
 
 ## Game Model
 
@@ -35,9 +35,14 @@ Two autonomous clients compete on a shared map:
 - Pathfinding using Dijkstra’s algorithm
 - Exploration strategy prioritizing regions with high information gain
 
+#### UI
+- Grid-based visualization
+- UI updates driven by observable state changes
+
 ## Tech
 
 - Java 17
 - Spring WebClient
 - JUnit 5, Mockito
 - SLF4J, Logback
+- Java Swing (GUI)
